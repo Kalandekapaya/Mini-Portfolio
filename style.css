@@ -65,10 +65,14 @@ body {
 }
 
 .shape button#close {
-    top: 60%;
+    top: 70%;
     transform: rotate(90deg);
     transform-origin: top left; 
 
+}
+
+.main.show-nav .shape {
+    transform: rotate(-70deg);
 }
 
 .sub-main {
